@@ -33,6 +33,6 @@ const isValid = computed(() => {
     <div>
       <v-textarea v-model="post.body" label="Текст" />
     </div>
-    <v-btn type="submit" :disabled="!isValid">Отправить</v-btn>
+    <v-btn type="submit" color="primary" :disabled="!isValid">Отправить</v-btn>
   </v-form>
 </template>
